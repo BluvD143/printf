@@ -5,6 +5,12 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <limits.h>
+/**
+ * struct convert - struct to choose the right function depending
+ * on the format specifier passed to _printf()
+ * @a: format specifier
+ * @f: point to the correct printing function
+ */
 
 typedef struct convert
 {
