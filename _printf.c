@@ -70,11 +70,6 @@ int _printf(const char *format, ...)
 		{"%", conv_p},
 		{"d", conv_d},
 		{"i", conv_d},
-		{"b", conv_b},
-		{"u", conv_u},
-		{"o", conv_o},
-		{"x", conv_x},
-		{"X", conv_ux},
 		{NULL, NULL}
 	};
 	va_list(ap);
