@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_func - gets function to match formatting
+ * get_func - this gets function to match formatting
  * @format: character string
  * @args: arguments to printf
  * @b: array of pointers to functions
